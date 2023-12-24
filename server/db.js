@@ -3,7 +3,7 @@ require('dotenv').config();
 // console.log("Environment Variables:", process.env);
 const {MongoClient} = require('mongodb')
 
-// mongodb compass connection string>   mongodb://127.0.0.1:27017/bookstore
+
 
 let dbConnection;
 module.exports = {
