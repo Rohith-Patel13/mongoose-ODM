@@ -5,8 +5,6 @@ const usersRoutes = require("./routes/user")
 
 require('dotenv').config();
 
-// const {ObjectId} = require("mongodb")
-
 const app = express()
 
 app.use(express.json())
